@@ -79,7 +79,7 @@ int main() {
     CUDA_CHECK(cudaEventCreate(&start));
     CUDA_CHECK(cudaEventCreate(&stop));
 
-    std::cout << "Running Hand-Rolled CUDA Matrix Multiplication..." << std::endl;
+    std::cout << "Running CUDA Matrix Multiplication..." << std::endl;
 
     CUDA_CHECK(cudaEventRecord(start, 0));
 

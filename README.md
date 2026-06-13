@@ -63,11 +63,11 @@ N = 10000×10000 matrices, measured on an NVIDIA GPU:
 | Implementation | Precision | Time (s) | GFLOPS |
 |---|---|---|---|
 | cuBLAS | F32 | 0.34 | 5880.03 |
-| Custom CUDA Kernel | F32 | 2.94 | 680.01 |
+| Custom CUDA Kernel | F32 | 1.14 | 1739.33 |
 | cuBLAS | F64 | 14.98 | 133.51 |
 | Custom CUDA Kernel | F64 | 14.00 | 142.87 |
 
-## License
+## License\
 
 MIT License — see [LICENSE](LICENSE).
 
