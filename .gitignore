@@ -1,0 +1,19 @@
+# --- Compiled Binaries ---
+*.exe
+*.out
+*.o
+*.obj
+
+# --- Build Directories ---
+build/
+bin/
+
+# --- Execution Artifacts ---
+cublas_*
+custom_*
+
+# --- IDE/Editor Junk ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
